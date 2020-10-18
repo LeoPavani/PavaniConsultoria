@@ -1,0 +1,153 @@
+html{
+    width: 100%;
+}
+
+body{
+    background: rgb(241, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+header{
+    background: rgb(255, 255, 255);
+    height: 100px;
+    padding: 15px;
+    border-bottom: 1px solid rgb(143, 143, 143);
+}
+
+.logo-clicavel{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+
+.logo-e-slogan{
+    display: inline-block;
+    height: 100%;
+}
+
+.logo{
+    display: inline-block;
+    height: 100%;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.slogan{
+    display: inline-block;
+    padding: 0 25px;
+    position: absolute;
+    top: 50px;
+}
+
+.slogan h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.slogan p{
+    font-size: 18px;
+}
+
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    top: 90px;
+}
+
+header ul{
+    position: relative;
+    left: 50px;
+}
+
+header li{
+    display: inline-block;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+header li:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+
+nav a{
+    padding: 0 30px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(29, 29, 29);
+}
+
+
+/* MAIN */
+
+main h1{
+    height: 1000px;
+}
+
+
+/* FOOTER */
+
+footer{
+    border-top: 1px solid rgb(143, 143, 143);
+    background: rgb(255, 255, 255);
+    height: 190px;
+}
+
+.logo-e-slogan-rodape{
+    height: 100px;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.logo-rodape{
+    height: 100px;
+    display: inline-block;
+}
+
+.logo-rodape img{
+    height: 100px;
+}
+
+.slogan-rodape{
+    display: inline-block;
+    padding: 0 25px;
+    position: relative;
+    top: -10px;
+}
+
+.slogan-rodape h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.slogan-rodape p{
+    font-size: 18px;
+}
+
+footer .contatos{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contatos li{
+    display: inline-block;
+    transition: 0.1s all;
+}
+
+footer li:hover{
+    transform: scale(1.05);
+}
+
+.contatos li a{
+    padding: 0 30px;
+    text-decoration: none;
+    color:  rgb(29, 29, 29);
+}
+
