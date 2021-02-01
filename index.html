@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link REL="SHORTCUT ICON" HREF="logo.ico">
     <title>Pavani Consultoria</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <a href="index.html" class="logo-clicavel">
             <div class="logo-e-slogan">
                 <div class="logo">
-                    <img src="http://www.pavaniconsultoria.com.br/logo_4.jpg" 
+                    <img src="logo.jpg" 
                     alt="Logo da Pavani Consultoria">
                 </div>
                 <div class="slogan">
@@ -35,13 +36,47 @@
 
     <main>
         <h1>Soluções e Serviços</h1>
+        <div class="divs">
+            <div class="solucoes-e-servicos">
+                <h2>Análise Ergonômica do Trabalho</h2>
+                <p>Descrição da tarefa deste bloquinho, explicando bem por cima o que é feito.</p>
+            </div>
+            <div class="solucoes-e-servicos">
+                <h2>Laudo Ergonômico</h2>
+                <p>Descrição da tarefa deste bloquinho, explicando bem por cima o que é feito.</p>
+            </div>
+            <div class="solucoes-e-servicos">
+                <h2>Assistência Técnica para Perícias</h2>
+                <p>Descrição da tarefa deste bloquinho, explicando bem por cima o que é feito.</p>
+            </div>
+            <div class="solucoes-e-servicos">
+                <h2>Consultoria</h2>
+                <p>Descrição da tarefa deste bloquinho, explicando bem por cima o que é feito.</p>
+            </div>
+            <div class="solucoes-e-servicos">
+                <h2>Projeto Ergonômico</h2>
+                <p>Descrição da tarefa deste bloquinho, explicando bem por cima o que é feito.</p>
+            </div>
+            <div class="solucoes-e-servicos">
+                <h2>GRO/PGR</h2>
+                <p>Descrição da tarefa deste bloquinho, explicando bem por cima o que é feito.</p>
+            </div>
+            <div class="solucoes-e-servicos">
+                <h2>Palestras e Treinamentos</h2>
+                <p>Descrição da tarefa deste bloquinho, explicando bem por cima o que é feito.</p>
+            </div>
+            <div class="solucoes-e-servicos">
+                <h2>Mentoria</h2>
+                <p>Descrição da tarefa deste bloquinho, explicando bem por cima o que é feito.</p>
+            </div>
+        </div>
         
     </main>
 
     <footer>
         <div class="logo-e-slogan-rodape">
             <div class="logo-rodape">
-                <img src="http://www.pavaniconsultoria.com.br/logo_4.jpg" 
+                <img src="logo.jpg" 
                 alt="Logo da Pavani Consultoria">
             </div>
             <div class="slogan-rodape">
@@ -57,6 +92,19 @@
             </ul>
         </div>
     </footer>
+    <script type="text/javascript" src="vanilla-tilt-min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".solucoes-e-servicos"), {
+            max: 20,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.2,
+            reverse: true,
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".solucoes-e-servicos"));
+    </script>
 
 </body>
 </html>
